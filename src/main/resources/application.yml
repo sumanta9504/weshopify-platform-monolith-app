@@ -36,7 +36,7 @@ spring:
   datasource: 
      driver-class-name: ${DB_DRIVER:com.mysql.cj.jdbc.Driver}
      #url: jdbc:${DB_TYPE:mysql}://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_SCHEMA:shopifyme-customers}
-     url: jdbc:${DB_TYPE:mysql}://${DB_HOST:papai-1.cwoqd4xxidje.ap-south-1.rds.amazonaws.com}:${DB_PORT:3306}/${DB_SCHEMA:papai_db}
+     url: jdbc:${DB_TYPE:mysql}://${DB_HOST:database-1.cwoqd4xxidje.ap-south-1.rds.amazonaws.com}:${DB_PORT:3306}/${DB_SCHEMA:sumanta_DB}
      username: ${DB_USER_NAME:root} 
      #password: ${DB_USER_PASSWORD:root}
      password: ${DB_USER_PASSWORD:Sonai#9504}
